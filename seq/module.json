@@ -1,0 +1,11 @@
+{
+    "display" : "Seq",
+    "parameters" :  [ 
+        ["int","seq_quantize","Quantize",0,4,0],
+        ["pct","seq_randomize","Randomize",0,100,0]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["seq_quantize","seq_randomize"]]
+    ]
+}
+
