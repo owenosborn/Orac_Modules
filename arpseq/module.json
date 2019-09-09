@@ -1,11 +1,11 @@
 {
-    "display" : "Seq Arp",
+    "display" : "Arp Seq",
     "parameters" :  [ 
-        ["int","arper_pattern","Pattern",0,7,0],
-        ["time","arper_length","Length",20,2000,500]
+        ["int","arpseq_pattern","Pattern",0,7,0],
+        ["time","arpseq_length","Length",20,2000,500]
     ],
     "pages" : [ 
-        ["pg_main","Main",["arper_pattern","arper_length"]]
+        ["pg_main","Main",["arpseq_pattern","arpseq_length"]]
     ]
 }
 
