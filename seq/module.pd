@@ -1,4 +1,4 @@
-#N canvas 173 50 1005 608 10;
+#N canvas 233 67 1005 608 10;
 #X obj 304 186 r notesIn-\$1;
 #X obj 304 490 s notesOut-\$1;
 #X obj 410 7 r loadbang-\$1;
@@ -9,7 +9,7 @@
 #X obj 487 182 r auxIn-\$1;
 #X obj 486 331 r expIn-\$1;
 #X obj 486 356 r fsIn-\$1;
-#N canvas 205 83 1535 858 sequencer 1;
+#N canvas 205 83 1535 858 sequencer 0;
 #X msg 770 427 stop;
 #X msg 645 439 arm;
 #X obj 433 414 seq-format-event note;
@@ -345,16 +345,19 @@
 #X connect 38 0 39 0;
 #X restore 304 341 pd sequencer;
 #X obj 651 222 r ctrlIn-\$1;
-#X obj 651 249 s ctrlOut-\$1;
+#X obj 651 309 s ctrlOut-\$1;
 #X obj 304 207 list split 2;
 #X obj 304 463 list append 0;
 #X obj 304 293 s seq-\$1-notes-in;
 #X obj 487 288 s seq-\$1-aux-in;
 #X obj 304 442 r seq-\$1-notes-out;
 #X obj 411 45 s seq-\$1-enable;
+#X obj 655 40 r seq_test_param-\$1;
+#X obj 655 61 print TEST;
 #X connect 0 0 13 0;
 #X connect 2 0 18 0;
 #X connect 7 0 16 0;
 #X connect 13 0 15 0;
 #X connect 14 0 1 0;
 #X connect 17 0 14 0;
+#X connect 19 0 20 0;
