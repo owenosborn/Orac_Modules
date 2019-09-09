@@ -9,7 +9,7 @@
 #X obj 487 182 r auxIn-\$1;
 #X obj 486 331 r expIn-\$1;
 #X obj 486 356 r fsIn-\$1;
-#N canvas 205 138 1535 858 sequencer 0;
+#N canvas 263 140 1535 858 sequencer 0;
 #X msg 770 427 stop;
 #X msg 645 439 arm;
 #X obj 433 414 seq-format-event note;
@@ -128,7 +128,7 @@
 #X connect 7 0 5 1;
 #X connect 9 0 6 0;
 #X restore 1147 75 pd savePreset;
-#X obj 522 564 t a a;
+#X obj 530 563 t a a;
 #X obj 430 533 seq \$1;
 #X obj 915 114 t b b l;
 #X text 800 214 bang right to start;
@@ -302,7 +302,7 @@
 #X obj 770 401 r seq-\$1-stop;
 #X obj 891 400 r seq-\$1-start;
 #X obj 618 364 r seq-\$1-recenable;
-#X obj 572 594 s seq-\$1-status;
+#X obj 601 596 s seq-\$1-status;
 #X obj 58 162 r seq-\$1-notes-in;
 #X obj 418 798 s seq-\$1-notes-out;
 #X obj 77 669 outlet~;
