@@ -1,5 +1,5 @@
 {
-    "display" : "Seq Punchy",
+    "display" : "Punchy",
     "parameters" :  [ 
         ["int","punchy_beat","Beat Div.",1,9,2],
         ["time","punchy_length","Length",1,1000,100],
