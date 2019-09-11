@@ -1,4 +1,4 @@
-#N canvas 1331 778 1014 499 10;
+#N canvas 902 545 1014 499 10;
 #N canvas 0 50 450 278 (subpatch) 0;
 #X array \$1-\$2-array-\$3 88200 float 2;
 #X coords 0 1 88200 -1 335 251 1 0 0;
@@ -17,10 +17,12 @@
 #X text 4 54 Arg3: Module Instance Number;
 #X obj 449 152 list prepend Sounds/s24-sounds/\$1;
 #X obj 449 32 r loadbang-\$3;
+#X obj 368 317 print LOADING;
 #X connect 2 0 8 0;
 #X connect 3 0 4 0;
 #X connect 4 0 5 0;
 #X connect 5 0 1 0;
+#X connect 5 0 13 0;
 #X connect 6 0 11 0;
 #X connect 8 0 6 0;
 #X connect 11 0 3 0;

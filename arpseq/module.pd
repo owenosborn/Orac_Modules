@@ -914,7 +914,7 @@ following elements over 1 place);
 #X restore 411 403 pd singledown2;
 #X obj 462 194 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 463 133 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 463 133 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 463 153 ==;
 #X obj 314 243 spigot 0;
@@ -1192,7 +1192,7 @@ by the sorting function so it always looks blank;
 #X restore 1321 122 pd savePreset;
 #X obj 232 209 r arpseq-\$1-notes-in;
 #X obj 592 845 s arpseq-\$1-notes-out;
-#X obj 811 201 r arpseq-\$1-aux-in;
+#X obj 809 296 r arpseq-\$1-aux-in;
 #X obj 712 389 r arpseq-\$1-tick;
 #X obj 466 353 s arpseq-\$1-tick;
 #X obj 348 637 r arpseq-\$1-tick;
@@ -1203,7 +1203,7 @@ by the sorting function so it always looks blank;
 #X obj 696 611 t a a;
 #X obj 604 580 seq \$1;
 #X obj 1089 161 t b b l;
-#X text 974 261 bang right to start;
+#X text 945 297 bang right to start;
 #N canvas 84 99 1493 885 seq-button-control 0;
 #X obj 232 262 f;
 #X obj 232 209 sel 1;
@@ -1362,7 +1362,7 @@ by the sorting function so it always looks blank;
 #X connect 72 0 74 0;
 #X connect 72 1 73 0;
 #X connect 73 0 75 0;
-#X restore 834 261 pd seq-button-control;
+#X restore 809 326 pd seq-button-control;
 #X obj 1052 240 s arpseq-\$1-something-recorded;
 #N canvas 4 50 1208 761 clock-div 0;
 #X floatatom 299 142 5 0 0 0 - - -;

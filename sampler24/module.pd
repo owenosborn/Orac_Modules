@@ -1,4 +1,4 @@
-#N canvas 247 341 1479 828 10;
+#N canvas 247 216 1479 828 10;
 #X declare -path Sounds/s24-sounds;
 #X obj 304 186 r notesIn-\$1;
 #X obj 304 491 s notesOut-\$1;
@@ -36,7 +36,7 @@
 #X obj 76 58 unpack 0 0;
 #X text 171 201 Notes in to Sampler Player;
 #X obj 76 189 + 1;
-#N canvas 1232 464 848 369 Battleship 0;
+#N canvas 1068 464 848 369 Battleship 0;
 #X obj 24 52 inlet;
 #X obj 24 166 route 1 2 3 4 5 6 7 8 9 10 11 12, f 106;
 #X obj 24 103 poly 12 1, f 10;

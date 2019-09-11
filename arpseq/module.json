@@ -7,7 +7,7 @@
         ["int","arpseq_beat","Beat Div.",1,5,4]
     ],
     "pages" : [ 
-        ["pg_main","Main",["arpseq_pattern","arpseq_length","arpseq_beat","arpseq_swing"]]
+        ["pg_main","Main",["arpseq_beat","arpseq_swing","arpseq_pattern","arpseq_length"]]
     ]
 }
 
