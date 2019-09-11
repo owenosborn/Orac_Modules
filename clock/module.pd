@@ -17,7 +17,7 @@ Modules;
 #X obj 491 542 i;
 #X obj 817 549 i;
 #X obj 734 164 r c_bpm-\$1;
-#X msg 650 711 Tempo 40 BPM;
+#X msg 650 711 Tempo 101 BPM;
 #X msg 641 619 set Tempo \$1 BPM MIDI \;;
 #X msg 491 618 set Tempo \$1 BPM \;;
 #X msg 817 625 set Tempo \$1 BPM LINK \;;
