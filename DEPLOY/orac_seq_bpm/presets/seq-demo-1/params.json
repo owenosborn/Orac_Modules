@@ -40,8 +40,8 @@
 		"moduleType":	"fx/delay",
 		"params":	{
 			"thru_gain":	0,
-			"dly_time":	76.246338,
-			"dly_fb":	65.884659,
+			"dly_time":	516.129028,
+			"dly_fb":	31.476051,
 			"dly_dw":	35.972630,
 			"dly_hip":	0
 		},
@@ -219,12 +219,12 @@
 		}
 	},
 	"p2":	{
-		"moduleType":	"fx/reverb",
+		"moduleType":	"fx/phaser",
 		"params":	{
 			"thru_gain":	0,
-			"rev_damp":	50,
-			"rev_size":	50,
-			"rev_dw":	25.317692
+			"phaser_depth":	41.642227,
+			"phaser_freq":	1.280547,
+			"phaser_dw":	74.780060
 		},
 		"midi-mapping":	{
 			"cc":	{

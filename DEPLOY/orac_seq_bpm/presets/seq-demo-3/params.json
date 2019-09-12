@@ -2,10 +2,10 @@
 	"a1":	{
 		"moduleType":	"sequence_bpm/arpseq",
 		"params":	{
-			"arpseq_pattern":	0,
-			"arpseq_swing":	67.448685,
+			"arpseq_pattern":	4,
+			"arpseq_swing":	0,
 			"arpseq_beat":	4,
-			"arpseq_length":	738.064514
+			"arpseq_length":	20
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -17,15 +17,14 @@
 		}
 	},
 	"a2":	{
-		"moduleType":	"synth/sampler",
+		"moduleType":	"synth/basicmono",
 		"params":	{
-			"s_slot1":	3,
-			"s_trans":	0,
-			"s_duration":	9.970675,
-			"s_speed":	0,
 			"pb_range":	2,
-			"s_kit":	1,
-			"s_envelope":	1.857283
+			"bp_vdepth":	0,
+			"bp_trans":	12,
+			"bp_decay":	51.803520,
+			"bp_wave":	3,
+			"bp_vrate":	1
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -40,9 +39,9 @@
 		"moduleType":	"fx/delay",
 		"params":	{
 			"thru_gain":	0,
-			"dly_time":	76.246338,
-			"dly_fb":	65.884659,
-			"dly_dw":	35.972630,
+			"dly_time":	252.199417,
+			"dly_fb":	53.176926,
+			"dly_dw":	52.297165,
 			"dly_hip":	0
 		},
 		"midi-mapping":	{
@@ -72,7 +71,7 @@
 		"moduleType":	"sequence_bpm/punchy",
 		"params":	{
 			"punchy_beat":	4,
-			"punchy_swing":	65.102638,
+			"punchy_swing":	9.188661,
 			"punchy_length":	100,
 			"punchy_velo":	0
 		},
@@ -89,10 +88,10 @@
 		"moduleType":	"synth/analogstyle",
 		"params":	{
 			"pb_range":	2,
-			"as_trans":	0,
-			"as_oscratio":	100,
-			"as_cutoff":	2100,
-			"as_reso":	0.879765
+			"as_trans":	-12,
+			"as_oscratio":	49.853371,
+			"as_cutoff":	690.420288,
+			"as_reso":	48.680351
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -107,7 +106,7 @@
 		"moduleType":	"sequence_bpm/click",
 		"params":	{
 			"metro_tone":	50,
-			"metro_level":	140.762466
+			"metro_level":	39.687195
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -121,11 +120,11 @@
 	"c1":	{
 		"moduleType":	"sequence_bpm/polybeats",
 		"params":	{
-			"pb_swing":	64.711632,
-			"pb_div":	29,
+			"pb_swing":	8.015640,
+			"pb_div":	16,
 			"pb_beat":	4,
-			"pb_note_len":	250,
-			"pb_note_vel":	100
+			"pb_note_len":	58.387096,
+			"pb_note_vel":	96
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -140,8 +139,8 @@
 		"moduleType":	"sequence_bpm/sampler24",
 		"params":	{
 			"s24_release":	0,
-			"s24_speed":	101.075256,
-			"s24_decay":	64.222870,
+			"s24_speed":	110.068420,
+			"s24_decay":	20.723362,
 			"s24_start":	8.015640
 		},
 		"midi-mapping":	{
@@ -224,7 +223,7 @@
 			"thru_gain":	0,
 			"rev_damp":	50,
 			"rev_size":	50,
-			"rev_dw":	15.444771
+			"rev_dw":	39.002930
 		},
 		"midi-mapping":	{
 			"cc":	{
@@ -254,7 +253,7 @@
 			"r-chin-r-pan-2":	1,
 			"r-midi-fscc":	64,
 			"r-chin-l-pan-2":	0,
-			"r-chout-gain-2":	67.644188,
+			"r-chout-gain-2":	40.469208,
 			"r-main-dest":	0,
 			"r-chin-r-gain-2":	0,
 			"r-chout-midich-2":	0,
