@@ -224,7 +224,7 @@
 			"thru_gain":	0,
 			"rev_damp":	50,
 			"rev_size":	50,
-			"rev_dw":	15.444771
+			"rev_dw":	25.317692
 		},
 		"midi-mapping":	{
 			"cc":	{

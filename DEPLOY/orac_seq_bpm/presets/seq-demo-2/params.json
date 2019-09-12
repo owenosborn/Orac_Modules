@@ -141,7 +141,7 @@
 		"params":	{
 			"s24_release":	0,
 			"s24_speed":	101.075256,
-			"s24_decay":	64.222870,
+			"s24_decay":	45.552299,
 			"s24_start":	8.015640
 		},
 		"midi-mapping":	{
@@ -281,7 +281,7 @@
 			"r-thru-gain-b2":	100,
 			"r-midi-expcc":	4,
 			"r-notethru-b1":	0,
-			"r-chout-gain-1":	59.824051,
+			"r-chout-gain-1":	43.401760,
 			"r-gain-b1":	100,
 			"r-bypass-b1":	0,
 			"r-bypass-b2":	0,
@@ -313,7 +313,7 @@
 			"r-thru-gain-b4":	100,
 			"r-gain-b4":	100,
 			"r-bypass-b4":	0,
-			"r-chout-gain-3":	67.644188,
+			"r-chout-gain-3":	91.691109,
 			"r-bypass-p2":	0,
 			"r-notethru-c1":	0,
 			"r-chin-l-gain-2":	0,
