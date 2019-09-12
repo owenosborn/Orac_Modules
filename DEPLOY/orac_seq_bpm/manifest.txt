@@ -53,7 +53,7 @@ bd331273c9be5af7b54d11ad1b7f05e2f837633e  orac_seq_bpm/sequence_bpm/clock/module
 12305a2b36dcfbec9ca63eb2263699f241c7430d  orac_seq_bpm/sequence_bpm/polybeats/test
 96c2b5c00982cc6fa42c0cb0d39755c915eea056  orac_seq_bpm/sequence_bpm/polybeats/cg-print-kb.pd
 ca0a170875c056955949aac3b70f3a7a1efab0e6  orac_seq_bpm/sequence_bpm/polybeats/module.json
-c78b4c4c7b59af7e4d4bb5907713d9a67b289d61  orac_seq_bpm/sequence_bpm/polybeats/module.pd
+70c23356c416b2ce2f4cc493b5b7b465160ab0a3  orac_seq_bpm/sequence_bpm/polybeats/module.pd
 661fc66db2968bf4c52e291907e49e7b4a9405eb  orac_seq_bpm/sequence_bpm/seq/seq.pd
 a633f4360713ff846bcfcb8869547e317cd2a2bf  orac_seq_bpm/sequence_bpm/seq/seq-player.pd
 c282631626fe6384c60d395cdf09963d2ab00e63  orac_seq_bpm/sequence_bpm/seq/seq-format-event.pd
