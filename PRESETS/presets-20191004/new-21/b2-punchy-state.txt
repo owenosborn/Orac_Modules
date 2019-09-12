@@ -1,0 +1,3 @@
+state 2;
+clock 280;
+note 63;

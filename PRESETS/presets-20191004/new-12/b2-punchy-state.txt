@@ -1,0 +1,3 @@
+state 0;
+clock 94;
+note 74;
