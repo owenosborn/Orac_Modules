@@ -350,6 +350,8 @@
 #X obj 920 113 t l l;
 #X obj 1141 106 t l l;
 #X obj 616 388 t b;
+#X obj 762 122 r global-start;
+#X obj 804 148 r global-stop;
 #X connect 0 0 19 3;
 #X connect 1 0 19 3;
 #X connect 2 0 19 2;
@@ -383,13 +385,14 @@
 #X connect 30 0 39 0;
 #X connect 32 0 2 0;
 #X connect 32 0 33 0;
-#X connect 35 0 20 1;
 #X connect 35 1 20 2;
 #X connect 37 0 35 0;
 #X connect 37 1 15 0;
 #X connect 38 0 35 1;
 #X connect 38 1 16 0;
 #X connect 39 0 1 0;
+#X connect 40 0 20 1;
+#X connect 41 0 20 2;
 #X restore 313 353 pd sequencer;
 #X obj 651 222 r ctrlIn-\$1;
 #X obj 651 309 s ctrlOut-\$1;
