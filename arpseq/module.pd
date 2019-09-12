@@ -1525,7 +1525,6 @@ by the sorting function so it always looks blank;
 #X connect 46 0 47 0;
 #X connect 46 1 19 0;
 #X connect 46 2 25 0;
-#X connect 47 0 40 1;
 #X connect 47 1 40 2;
 #X connect 50 0 40 1;
 #X connect 51 0 40 2;

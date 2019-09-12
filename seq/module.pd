@@ -9,7 +9,7 @@
 #X obj 487 182 r auxIn-\$1;
 #X obj 486 331 r expIn-\$1;
 #X obj 486 356 r fsIn-\$1;
-#N canvas 263 140 1535 858 sequencer 0;
+#N canvas 263 140 1535 858 sequencer 1;
 #X msg 770 427 stop;
 #X msg 628 415 arm;
 #X obj 433 414 seq-format-event note;
@@ -385,7 +385,6 @@
 #X connect 30 0 39 0;
 #X connect 32 0 2 0;
 #X connect 32 0 33 0;
-#X connect 35 0 20 1;
 #X connect 35 1 20 2;
 #X connect 37 0 35 0;
 #X connect 37 1 15 0;
