@@ -9,7 +9,7 @@
     ],
     "pages" : [ 
         ["pg_main","Main",["pb_div","pb_note_len","pb_note_vel"]],
-        ["pg_clock","Clock",["pb_beat","pb_swing"]],
+        ["pg_clock","Clock Settings",["pb_beat","pb_swing"]],
         ["pg_graphics","Keyboard",[]]
     ]
 }
