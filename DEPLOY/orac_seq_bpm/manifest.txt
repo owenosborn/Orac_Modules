@@ -30,7 +30,7 @@ c2515974c33d36fe3fadec4fe8377c5b00547e5c  orac_seq_bpm/sequence_bpm/punchy/clock
 144fe474bc176e15f9914f5774422f6f508d4269  orac_seq_bpm/sequence_bpm/punchy/clocker.pd_linux
 3d80c3af37133cc693ae424a6b65bd2c22778819  orac_seq_bpm/sequence_bpm/punchy/seq-recorder.pd
 55a708432d37e7387f7971ea4de7a1b069b371df  orac_seq_bpm/sequence_bpm/punchy/module.json
-117eebb61700ae26d216893ac6a4261b3cafc628  orac_seq_bpm/sequence_bpm/punchy/module.pd
+64ab9bb64b26ced0450d1c7cdcb53598e56da533  orac_seq_bpm/sequence_bpm/punchy/module.pd
 ba1c8743065afeecbe3ac5f8f17bc9e8a494751b  orac_seq_bpm/sequence_bpm/arpseq/latch-notes.pd
 e7ef444074a6d269178a05e4a1e1ed28e865e449  orac_seq_bpm/sequence_bpm/arpseq/counter-up.pd
 ab986c7ad94ccb67c91706396d3d9b1caaa76ada  orac_seq_bpm/sequence_bpm/arpseq/seq.pd
@@ -40,12 +40,12 @@ c2515974c33d36fe3fadec4fe8377c5b00547e5c  orac_seq_bpm/sequence_bpm/arpseq/clock
 144fe474bc176e15f9914f5774422f6f508d4269  orac_seq_bpm/sequence_bpm/arpseq/clocker.pd_linux
 3d80c3af37133cc693ae424a6b65bd2c22778819  orac_seq_bpm/sequence_bpm/arpseq/seq-recorder.pd
 eb623398b5cc089064cbec5277a552f538a630a9  orac_seq_bpm/sequence_bpm/arpseq/module.json
-a29829eaeb8828b027d079e43227f01bf0f56ac2  orac_seq_bpm/sequence_bpm/arpseq/module.pd
+591654c5843193806c178183166d8601be524ddf  orac_seq_bpm/sequence_bpm/arpseq/module.pd
 0448f181f1db16b4ca584e155ee325e3ba530225  orac_seq_bpm/sequence_bpm/arpseq/counter-down.pd
-05598dd16e5351bb365d2789d784d43fb9fda37f  orac_seq_bpm/sequence_bpm/clock/metronome360.pd
+84be95cb00bf89396110cfe186aaaad55db529fc  orac_seq_bpm/sequence_bpm/clock/metronome360.pd
 364e0d8818d703b1c291b3e21c282d0f40422f04  orac_seq_bpm/sequence_bpm/clock/clockfix.pd_linux
 bd331273c9be5af7b54d11ad1b7f05e2f837633e  orac_seq_bpm/sequence_bpm/clock/module.json
-8830b59834df6ddf1b144891884d5a067417f020  orac_seq_bpm/sequence_bpm/clock/module.pd
+4461a74fb548234a18468ca0d4121fc2226a969f  orac_seq_bpm/sequence_bpm/clock/module.pd
 421e84993d2324646ee32f44afe4eb31135ce829  orac_seq_bpm/sequence_bpm/polybeats/keys-diagram.txt
 0a59f71a9f342bc0fbcf3891a2298545c444e3be  orac_seq_bpm/sequence_bpm/polybeats/counter-up.pd
 3c69e8dd645f83dfe51890bc63181abf5e807feb  orac_seq_bpm/sequence_bpm/polybeats/pb-notesBAK.pd
@@ -53,7 +53,7 @@ bd331273c9be5af7b54d11ad1b7f05e2f837633e  orac_seq_bpm/sequence_bpm/clock/module
 12305a2b36dcfbec9ca63eb2263699f241c7430d  orac_seq_bpm/sequence_bpm/polybeats/test
 96c2b5c00982cc6fa42c0cb0d39755c915eea056  orac_seq_bpm/sequence_bpm/polybeats/cg-print-kb.pd
 ca0a170875c056955949aac3b70f3a7a1efab0e6  orac_seq_bpm/sequence_bpm/polybeats/module.json
-4dc74f3b78294d552824516b7581873dad450835  orac_seq_bpm/sequence_bpm/polybeats/module.pd
+c78b4c4c7b59af7e4d4bb5907713d9a67b289d61  orac_seq_bpm/sequence_bpm/polybeats/module.pd
 661fc66db2968bf4c52e291907e49e7b4a9405eb  orac_seq_bpm/sequence_bpm/seq/seq.pd
 a633f4360713ff846bcfcb8869547e317cd2a2bf  orac_seq_bpm/sequence_bpm/seq/seq-player.pd
 c282631626fe6384c60d395cdf09963d2ab00e63  orac_seq_bpm/sequence_bpm/seq/seq-format-event.pd
