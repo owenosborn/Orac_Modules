@@ -1,0 +1,3 @@
+state 0;
+clock 277;
+note 67;
